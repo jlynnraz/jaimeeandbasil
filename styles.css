@@ -1,0 +1,197 @@
+
+
+/* Styles for all devices */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+header {
+    background: #ffcc00;
+    padding: 20px;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 0.8em;
+    color: #666;
+}
+
+section {
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 600px; /* Limit width to improve readability on large screens */
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 600px) {
+    body {
+        padding: 10px; /* Reduce padding on smaller screens */
+    }
+
+    header {
+        padding: 15px; /* Adjusting padding for the header */
+    }
+
+    section {
+        margin: 10px 0; /* Reduce margin between sections */
+    }
+}
+body {
+    font-size: 16px; /* Base font size */
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    max-width: 100%; /* Prevents overflow */
+    overflow-x: hidden; /* Hides any horizontal overflow */
+}
+
+section {
+    max-width: 95%; /* Or 100% - keep some margin */
+    margin: 0 auto; /* Centers the section */
+}
+header, footer {
+    width: 100%; /* Take full width of the viewport */
+}
+
+section {
+    width: 95%; /* Allow some padding on the sides */
+    margin: 10px auto; /* Center it */
+}
+@media (max-width: 600px) {
+    body {
+        padding: 10px; /* Adjust padding */
+    }
+
+    header {
+        font-size: 1.2em; /* Adjust font size */
+    }
+
+    section {
+        padding: 15px; /* Add padding */
+    }
+}
+/* Example of replacing fixed size */
+/* Change this */
+/* width: 500px; */
+
+/* To this */
+width: 100%; /* or relative units like percentage */
+img {
+    max-width: 100%;
+    height: auto; /* Maintains aspect ratio */
+}
+body {
+    font-family: "Playwrite AR", sans-serif;
+    background-color: #f2f3af; /* Fallback color */
+    background-image: url('https://images.unsplash.com/photo-1519122114654-d665e49b122e?q=80&w=2988&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); /* Background image */
+    background-size: cover; /* Cover the whole body */
+    background-position: center; /* Center the image */
+    color: #333; 
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+header {
+    background-color: #2116AB; /* Light Blue for Header */
+    padding: 20px;
+    color: white; /* White text for contrast */
+}
+
+footer {
+    background-color: #50a0c3; /* Light Blue for Footer */
+    margin-top: 20px;
+    font-size: 0.8em;
+    color: white; /* White text for contrast */
+}
+
+section {
+    max-width: 95%;
+    margin: 10px auto;
+    padding: 20px;
+    background-color: #ffd84f; /* Bright Golden Yellow for Sections */
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+h1 {
+    color: #d74126; /* Vibrant Red-Orange for Headings */
+}
+
+
+h2 {
+    color: #d74126; /* Vibrant Red-Orange for Headings */
+}
+
+/* Links */
+a {
+    color: #d74126; /* Vibrant Red-Orange for Links */
+    text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+    color: #50a0c3; /* Change link color to light blue on hover */
+}
+
+/* Responsive Design for smaller screens */
+@media (max-width: 600px) {
+    body {
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
+}
+
+p {
+    font-family: "Quicksand", sans-serif; /* Use the Google font you selected */
+    font-size: 16px; /* Adjust the font size as needed */
+    line-height: 1.5; /* Space between lines for readability */
+    color: #333; /* Text color */
+}
+.special-text {
+    font-family: "Playwrite AR", sans-serif; /* Change to the font you decided on */
+    font-size: 18px; /* Adjust the font size as needed */
+    color: #d74126; /* Change the color if desired */
+    font-weight: bold; /* Optional: Make it bold */
+}
+
+
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 400
+
+.playwrite-ar-<uniquifier> {
+  font-family: "Playwrite AR", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 700
+
+.quicksand-<uniquifier> {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.custom-line {
+    border: none; /* Removes the default border */
+    height: 2px; /* Sets the height of the line */
+    background-color: #f0f0f0; /* Sets the color of the line */
+    width: 100%; /* Makes it full width */
+    margin: 20px 0; /* Adds space above and below the line */
+}
+
+
